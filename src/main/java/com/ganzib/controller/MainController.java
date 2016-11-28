@@ -47,6 +47,12 @@ public class MainController {
 
     }
 
+    /**
+     * 登录
+     * @param modelMap
+     * @param request
+     * @return
+     */
     @RequestMapping(value = "login",method = RequestMethod.POST)
     public String login(ModelMap modelMap, HttpServletRequest request){
         String userName = request.getParameter("userName");
