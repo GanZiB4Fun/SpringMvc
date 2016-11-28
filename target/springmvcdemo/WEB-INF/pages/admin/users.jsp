@@ -25,6 +25,7 @@
     <hr/>
 
     <h3>所有用户 <a href="/admin/users/add" type="button" class="btn btn-primary btn-sm">添加</a></h3>
+    <h3>所有文章 <a href="/cmsnew/list" type="button" class="btn btn-primary btn-sm">文章列表</a></h3>
 
     <!-- 如果用户列表为空 -->
     <c:if test="${empty userList}">

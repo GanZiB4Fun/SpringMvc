@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -45,8 +45,7 @@
                 <tr>
                     <td>${news.cmsNewsId}</td>
                     <td>${news.title}</td>
-                    <td>${news.summary}</td>
-                    <td>${news.imgUri}</td>
+                    <td><img src="${news.imgUri}" style="width: 100px;height: 100px;"/></td>
                 </tr>
             </c:forEach>
         </table>
